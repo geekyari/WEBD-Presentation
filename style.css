@@ -53,6 +53,17 @@ section{
     transform: scale(1.1);
 }
 
+.heading{
+    text-align: center;
+    background: var(--gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
 header{
     position: fixed;
     top: 0; left: 0;
@@ -133,8 +144,47 @@ header label{
     padding: 1rem 0;
 }
 
+.IPAddress img{
+    width: 2.65in;
+    height: 2.21in;
+    margin-top: -3rem;
+    margin-bottom: -1rem;
+}
 
+.IPAddress .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.IPAddress .box-container .box{
+    flex: 1 1 30rem;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow:0 .5rem 1rem rgba(0, 0, 0, .1);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+
+.IPAddress .box-container .box h3{
+    font-size: 1.6rem;
+    color: #333;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.IPAddress .box-container .box p{
+    font-size: 1.3rem;
+    color: #666;
+    padding-top: 1rem 0;
+    text-transform: none;
+    text-align: justify;
+}
 
 
 
