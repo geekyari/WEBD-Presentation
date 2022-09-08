@@ -451,6 +451,10 @@ header label{
         margin-bottom: 3rem;
     }
 
+    .home .image img{
+        margin-top: 5rem;
+    }
+
 }
 
 @media (max-width:768px){
