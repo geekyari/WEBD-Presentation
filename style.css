@@ -237,6 +237,10 @@ header label{
     text-transform: none;
 }
 
+.domainName{
+    margin-top: -10rem;
+}
+
 .webpage{
     text-align: center;
     padding: 5rem 1rem;
@@ -442,6 +446,11 @@ header label{
         padding-bottom: 2rem;
     }
 
+    .webpage{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
 }
 
 @media (max-width:768px){
@@ -499,6 +508,7 @@ header label{
 
     .domainName{
         background-position: right;
+        margin-top: 5rem;
     }
 
     .domainName .image img{
@@ -512,9 +522,22 @@ header label{
     .footer .box-container .box p{
         padding-left: 0rem;
     }
+
+    .webpage{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
     
 }
 
+@media (max-width:749px){
+    
+    .webpage{
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+}
 
 @media (max-width:450px){
     
@@ -535,6 +558,13 @@ header label{
     .domainName .column .content .buttons a:last-child{
         margin: 1rem 0;
     }
+
+    .domainName img{
+        width: 50%;
+        height: 371px;
+        padding-bottom: -40rem;
+    }
+
 
 
 }
