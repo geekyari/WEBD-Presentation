@@ -235,6 +235,7 @@ header label{
     color: rgb(27, 26, 26);
     padding: 1rem 0;
     text-transform: none;
+    line-height: 2.5rem;
 }
 
 .domainName{
@@ -430,6 +431,13 @@ header label{
 
 
 /* Media Queries */
+@media (max-width:1250px){
+
+    .domainName .heading{
+        margin-top: 10rem;
+    }
+}
+
 
 @media (max-width:1200px){
 
@@ -456,6 +464,13 @@ header label{
     }
 
 }
+
+@media (max-width:1160px){
+    .domainName .heading{
+        margin-top: 10rem;
+    }
+}
+
 
 @media (max-width:768px){
 
@@ -512,7 +527,6 @@ header label{
 
     .domainName{
         background-position: right;
-        margin-top: 5rem;
     }
 
     .domainName .image img{
