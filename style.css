@@ -181,11 +181,12 @@ header label{
 }
 
 .IPAddress .box-container .box p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: rgb(27, 26, 26);
     padding-top: 1rem 0;
     text-transform: none;
     text-align: justify;
+    line-height: 25px;
 }
 
 .domainName img{
@@ -235,7 +236,7 @@ header label{
     color: rgb(27, 26, 26);
     padding: 1rem 0;
     text-transform: none;
-    line-height: 2.5rem;
+    line-height: 25px;
 }
 
 .domainName{
@@ -557,7 +558,7 @@ header label{
     }
 }
 
-@media (max-width:450px){
+@media (max-width:451px){
     
     html{
         font-size: 50%
@@ -578,8 +579,8 @@ header label{
     }
 
     .domainName img{
-        width: 50%;
-        height: 371px;
+        width: 60%;
+        height: 401px;
         padding-bottom: -40rem;
     }
 
